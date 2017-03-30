@@ -1,5 +1,9 @@
-function init() {
+function splash(param) {
 	document.addEventListener("deviceready",onDeviceReady, false);
+     var time = param;
+ setTimeout(function () {
+   $('#splashscreen').hide();
+ }, time);
 }
 
 function onDeviceReady() {
