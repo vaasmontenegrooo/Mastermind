@@ -22,5 +22,5 @@ function deviceInfo() {
 
 setTimeout(function(){
     document.getElementById("splashscreen").style.display = "none";
-}, 3000)         
+}, 5000)         
            
