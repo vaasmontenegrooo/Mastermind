@@ -1,9 +1,6 @@
-function splash(param) {
+function init() {
 	document.addEventListener("deviceready",onDeviceReady, false);
-     var time = param;
- setTimeout(function () {
-   $('#splashscreen').hide();
- }, time);
+    
 }
 
 function onDeviceReady() {
@@ -22,3 +19,8 @@ function deviceInfo() {
 
 	document.getElementById("deviceDetails").innerHTML = info;	
 }
+
+setTimeout(function(){
+    document.getElementById("splashscreen").style.display = "none";
+}, 3000)         
+           
