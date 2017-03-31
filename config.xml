@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-		id          = "popup"
+		id          = "Mastermind"
         version     = "1.0.0" >
 
     <name>MasterMind</name>
@@ -14,6 +14,11 @@
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
 	<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />    
         
+        <splash src="img/android/drawable-mdpi/splash.jpg" platform="android" qualifier="mdpi" />
+        <splash src="img/android/drawable-hdpi/splash.jpg" platform="android" qualifier="hdpi" />
+        <splash src="img/android/drawable-xhdpi/splash.jpg" platform="android" qualifier="xhdpi" />
+        <splash src="img/android/drawable-xxhdpi/splash.jpg" platform="android" qualifier="xxhdpi" />
+        <splash src="img/android/drawable-xxxhdpi/splash.jpg" platform="android" qualifier="xxxhdpi" />  
         
     <icon src="img/MM_Icon.png" />
 </widget>
