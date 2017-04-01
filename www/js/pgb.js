@@ -20,7 +20,5 @@ function deviceInfo() {
 	document.getElementById("deviceDetails").innerHTML = info;	
 }
 
-setTimeout(function(){
-    document.getElementById("splashscreen").style.display = "none";
-}, 5000)         
+     
            
