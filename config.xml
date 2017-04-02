@@ -11,10 +11,10 @@
 	</author>
 	<platform name="android" />
         
-        <splash platform="android" qualifier="port-ldpi" src="img/android/ldpi/splashscreen.png" />
-        <splash platform="android" qualifier="port-mdpi" src="img/android/mdpi/splashscreen.png" />
-        <splash platform="android" qualifier="port-hdpi" src="img/android/hdpi/splashscreen.png" />
-        <splash platform="android" qualifier="port-xhdpi" src="img/android/xhdpi/splashscreen.png" />
+        <splash platform="android" qualifier="port-ldpi" src="img/android/ldpi/splashscreen.9.png" />
+        <splash platform="android" qualifier="port-mdpi" src="img/android/mdpi/splashscreen.9.png" />
+        <splash platform="android" qualifier="port-hdpi" src="img/android/hdpi/splashscreen.9.png" />
+        <splash platform="android" qualifier="port-xhdpi" src="img/android/xhdpi/splashscreen.9.png" />
         
         <splash src="splash.png" />
         
