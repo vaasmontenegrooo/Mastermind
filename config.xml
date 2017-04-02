@@ -16,7 +16,7 @@
         <splash platform="android" qualifier="port-hdpi" src="img/android/hdpi/splashscreen.9.png" />
         <splash platform="android" qualifier="port-xhdpi" src="img/android/xhdpi/splashscreen.9.png" />
         
-        <splash src="splash.png" />
+        <splash src="splash.9.png" />
         
         <preference name="SplashScreenDelay" value="5000" />
         <preference name="orientation" value="portrait" />
